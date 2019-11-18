@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ModuleJJB_Example' do
+  pod 'ModuleJJB', :path => '../'
+
+  target 'ModuleJJB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
