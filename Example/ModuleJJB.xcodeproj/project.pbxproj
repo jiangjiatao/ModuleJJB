@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E5AFE0EA2382A605000A5969 /* JTb.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE0E92382A605000A5969 /* JTb.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +39,9 @@
 
 /* Begin PBXFileReference section */
 		1185074EE6015F1CF052F70D /* Pods_ModuleJJB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleJJB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31850B25F89F39CB0BCC3598 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		31850B25F89F39CB0BCC3598 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4BD2BEB1899CF54B0D7FEF2F /* Pods_ModuleJJB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleJJB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FC37BD135AFDCE0F11AFA16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4FC37BD135AFDCE0F11AFA16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ModuleJJB_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleJJB_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +66,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1B98BA400FD41A025851101 /* Pods-ModuleJJB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleJJB_Tests.release.xcconfig"; path = "Target Support Files/Pods-ModuleJJB_Tests/Pods-ModuleJJB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C68FD2A6B92B60D631607C4C /* Pods-ModuleJJB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleJJB_Example.debug.xcconfig"; path = "Target Support Files/Pods-ModuleJJB_Example/Pods-ModuleJJB_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D4AB62EC11DE76AD93DDC5B6 /* ModuleJJB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ModuleJJB.podspec; path = ../ModuleJJB.podspec; sourceTree = "<group>"; };
+		D4AB62EC11DE76AD93DDC5B6 /* ModuleJJB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ModuleJJB.podspec; path = ../ModuleJJB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D6B71F2A280C2DF8BA7EE1E8 /* Pods-ModuleJJB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleJJB_Example.release.xcconfig"; path = "Target Support Files/Pods-ModuleJJB_Example/Pods-ModuleJJB_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5AFE0E82382A605000A5969 /* JTb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTb.h; sourceTree = "<group>"; };
+		E5AFE0E92382A605000A5969 /* JTb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTb.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 				646DF33C2822772A1D20F39F /* Pods-ModuleJJB_Tests.debug.xcconfig */,
 				A1B98BA400FD41A025851101 /* Pods-ModuleJJB_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				E5AFE0E82382A605000A5969 /* JTb.h */,
+				E5AFE0E92382A605000A5969 /* JTb.m */,
 			);
 			name = "Example for ModuleJJB";
 			path = ModuleJJB;
@@ -364,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AFE0EA2382A605000A5969 /* JTb.m in Sources */,
 				6003F59E195388D20070C39A /* JAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

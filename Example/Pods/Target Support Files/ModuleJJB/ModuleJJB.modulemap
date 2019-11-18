@@ -1,0 +1,6 @@
+framework module ModuleJJB {
+  umbrella header "ModuleJJB-umbrella.h"
+
+  export *
+  module * { export * }
+}
